@@ -13,7 +13,6 @@ run/
 .idea/
 *.iml
 .vscode/
-.claude/
 .settings/
 .project
 .classpath
