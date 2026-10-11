@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.shahed.fly": {
+      "loop": true,
+      "animation_length": 0.25,
+      "bones": {
+        "prop": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.125": [0, 0, -180],
+            "0.25": [0, 0, -360]
+          }
+        }
+      }
+    },
+    "animation.shahed.dive": {
+      "loop": true,
+      "animation_length": 0.15,
+      "bones": {
+        "prop": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.075": [0, 0, -180],
+            "0.15": [0, 0, -360]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Superb Warfare and any other local jars: each developer puts their own copy here (see README)
+libs/
+
+# Minecraft run directory (worlds, logs, configs)
+run/
+
+# IDE and tool settings
+.idea/
+*.iml
+.vscode/
+.claude/
+.settings/
+.project
+.classpath
+bin/
+
+# Working files
+*.bbmodel
+*.mcm
+*.zip
+*.log
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Promo images and store texts
+branding/

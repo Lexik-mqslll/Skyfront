@@ -1,0 +1,74 @@
+plugins {
+    id 'java-library'
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.neoforged.moddev' version '2.0.75'
+}
+
+version = '1.4.0'
+group = 'dev.krutlexik.skyfront'
+
+base {
+    archivesName = 'skyfront'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = '21.1.65'
+
+    parchment {
+        mappingsVersion = '2024.11.17'
+        minecraftVersion = '1.21.1'
+    }
+
+    runs {
+        client {
+            client()
+        }
+
+        server {
+            server()
+        }
+
+        // In-game tests (DroneGameTests).
+        gameTestServer {
+            type = 'gameTestServer'
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'sfw'
+        }
+
+        data {
+            data()
+            programArguments.addAll '--mod', 'sfw', '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+        }
+    }
+
+    mods {
+        sfw {
+            sourceSet(sourceSets.main)
+        }
+    }
+
+}
+
+repositories {
+    maven {
+        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+    }
+}
+
+dependencies {
+    implementation "software.bernie.geckolib:geckolib-neoforge-1.21.1:4.6.6"
+
+    // Superb Warfare is needed to compile: put its jar into libs/ (see README).
+    compileOnly fileTree(dir: 'libs', include: ['superbwarfare-*.jar'])
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+jar {
+    from('LICENSE')
+}

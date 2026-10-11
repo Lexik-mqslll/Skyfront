@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "dev.krutlexik.skyfront.drone.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ChunkMapMixin",
+    "TrackedEntityMixin",
+    "ServerLevelViewMixin",
+    "PlayerListViewMixin"
+  ],
+  "client": [
+    "MouseHandlerMixin",
+    "ClientLevelDroneMixin",
+    "GameRendererMixin",
+    "EntityRenderRangeMixin",
+    "ParticleAccessor",
+    "SingleQuadParticleMixin",
+    "SbwSoftParticleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

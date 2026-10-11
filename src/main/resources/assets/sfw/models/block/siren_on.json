@@ -1,0 +1,6 @@
+{
+  "parent": "sfw:block/siren",
+  "textures": {
+    "up": "sfw:block/siren_top_on"
+  }
+}
