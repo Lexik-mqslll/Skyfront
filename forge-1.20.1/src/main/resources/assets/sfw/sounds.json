@@ -1,0 +1,143 @@
+{
+  "shahed_engine": {
+    "subtitle": "subtitles.sfw.engine",
+    "sounds": [
+      {
+        "name": "sfw:shahed_engine",
+        "stream": true,
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1,
+        "attenuation_distance": 256
+      }
+    ]
+  },
+  "explosion_1": {
+    "subtitle": "subtitles.sfw.explosion",
+    "sounds": [
+      {
+        "name": "sfw:explosion_1",
+        "stream": false,
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1,
+        "attenuation_distance": 128
+      }
+    ]
+  },
+  "explosion_2": {
+    "subtitle": "subtitles.sfw.explosion",
+    "sounds": [
+      {
+        "name": "sfw:explosion_2",
+        "stream": false,
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1,
+        "attenuation_distance": 128
+      }
+    ]
+  },
+  "explosion_3": {
+    "subtitle": "subtitles.sfw.explosion",
+    "sounds": [
+      {
+        "name": "sfw:explosion_3",
+        "stream": false,
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1,
+        "attenuation_distance": 128
+      }
+    ]
+  },
+  "explosion_4": {
+    "subtitle": "subtitles.sfw.explosion",
+    "sounds": [
+      {
+        "name": "sfw:explosion_4",
+        "stream": false,
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1,
+        "attenuation_distance": 128
+      }
+    ]
+  },
+  "explosion_5": {
+    "subtitle": "subtitles.sfw.explosion",
+    "sounds": [
+      {
+        "name": "sfw:explosion_5",
+        "stream": false,
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1,
+        "attenuation_distance": 128
+      }
+    ]
+  },
+  "drone_loop": {
+    "subtitle": "subtitles.sfw.drone_loop",
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sfw:drone_loop",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "interceptor_loop": {
+    "subtitle": "subtitles.sfw.interceptor_loop",
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sfw:interceptor_loop",
+        "stream": false,
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 192
+      }
+    ]
+  },
+  "siren": {
+    "subtitle": "subtitles.sfw.siren",
+    "sounds": [
+      {
+        "name": "sfw:siren",
+        "stream": true,
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1,
+        "attenuation_distance": 300
+      }
+    ]
+  },
+  "fpv_loop": {
+    "subtitle": "subtitles.sfw.fpv_motors",
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sfw:fpv_loop",
+        "stream": false,
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 192
+      }
+    ]
+  },
+  "molniya_loop": {
+    "subtitle": "subtitles.sfw.molniya_motor",
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sfw:molniya_loop",
+        "stream": false,
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 192
+      }
+    ]
+  }
+}

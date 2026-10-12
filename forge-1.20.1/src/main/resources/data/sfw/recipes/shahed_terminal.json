@@ -1,0 +1,36 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "superbwarfare"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "SGS",
+    "RAR",
+    "SBS"
+  ],
+  "key": {
+    "S": {
+      "item": "superbwarfare:steel_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "A": {
+      "item": "superbwarfare:ancient_cpu"
+    },
+    "B": {
+      "item": "superbwarfare:small_battery_pack"
+    }
+  },
+  "result": {
+    "item": "sfw:shahed_terminal",
+    "count": 1
+  }
+}

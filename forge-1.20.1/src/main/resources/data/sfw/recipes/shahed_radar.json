@@ -1,0 +1,39 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "superbwarfare"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "PAP",
+    "RMR",
+    "SBS"
+  ],
+  "key": {
+    "P": {
+      "item": "superbwarfare:copper_plate"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "M": {
+      "item": "superbwarfare:motor"
+    },
+    "S": {
+      "item": "superbwarfare:steel_ingot"
+    },
+    "B": {
+      "item": "superbwarfare:small_battery_pack"
+    }
+  },
+  "result": {
+    "item": "sfw:shahed_radar",
+    "count": 1
+  }
+}

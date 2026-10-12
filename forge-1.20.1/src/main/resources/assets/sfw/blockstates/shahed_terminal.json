@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sfw:block/shahed_terminal"
+    },
+    "facing=south": {
+      "model": "sfw:block/shahed_terminal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sfw:block/shahed_terminal",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "sfw:block/shahed_terminal",
+      "y": 90
+    }
+  }
+}

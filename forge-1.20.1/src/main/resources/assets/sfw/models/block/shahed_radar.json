@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "sfw:block/radar_screen",
+    "down": "sfw:block/radar_bottom",
+    "north": "sfw:block/radar_side",
+    "south": "sfw:block/radar_side",
+    "east": "sfw:block/radar_side",
+    "west": "sfw:block/radar_side",
+    "particle": "sfw:block/radar_side"
+  }
+}

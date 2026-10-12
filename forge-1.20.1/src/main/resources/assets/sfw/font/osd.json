@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "sfw:roboto.ttf",
+      "size": 7.5,
+      "oversample": 8.0,
+      "shift": [0, 0]
+    }
+  ]
+}

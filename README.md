@@ -26,6 +26,20 @@ The mod is needed on both the server and the client.
 
 In-game tests run with `./gradlew runGameTestServer`.
 
+### Forge 1.20.1
+
+The Forge 1.20.1 port is a separate Gradle build in [`forge-1.20.1/`](forge-1.20.1). It needs Java 17, Forge 47.2+, GeckoLib 4.4+ and Superb Warfare 0.8+ for 1.20.1.
+
+1. Put the Superb Warfare jar for Minecraft 1.20.1 into `forge-1.20.1/libs/`, named `superbwarfare-1.20.1-0.8.8.jar`.
+2. Build from inside that folder:
+
+   ```
+   cd forge-1.20.1
+   ./gradlew build
+   ```
+
+   The mod jar is written to `forge-1.20.1/build/libs/`.
+
 ## Project layout
 
 - `src/main/java/dev/krutlexik/skyfront` — the mod

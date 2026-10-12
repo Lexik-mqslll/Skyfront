@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "sfw:block/siren"
+    },
+    "powered=true": {
+      "model": "sfw:block/siren_on"
+    }
+  }
+}
+
+
+

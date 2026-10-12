@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "sfw:block/siren_top",
+    "down": "sfw:block/siren_bottom",
+    "north": "sfw:block/siren_front",
+    "south": "sfw:block/siren_back",
+    "east": "sfw:block/siren_side",
+    "west": "sfw:block/siren_side",
+    "particle": "sfw:block/siren_side"
+  }
+}

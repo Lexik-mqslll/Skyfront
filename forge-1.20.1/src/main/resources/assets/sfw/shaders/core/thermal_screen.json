@@ -1,0 +1,12 @@
+{
+    "blend": { "func": "add", "srcrgb": "one", "dstrgb": "zero" },
+    "vertex": "sfw:thermal_screen",
+    "fragment": "sfw:thermal_screen",
+    "attributes": [ "Position", "UV0" ],
+    "samplers": [ { "name": "Sampler0" }, { "name": "Sampler1" } ],
+    "uniforms": [
+        { "name": "ambientTemp", "type": "float", "count": 1, "values": [0.16] },
+        { "name": "Time",        "type": "float", "count": 1, "values": [0.0] },
+        { "name": "UseMask",     "type": "float", "count": 1, "values": [0.0] }
+    ]
+}

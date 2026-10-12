@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:builtin/entity",
+  "gui_light": "front",
+  "comment": "The Molniya's own glb, drawn by DroneItemRenderer. In a slot it is nose up and to the right, the same heading as the Shahed's icon, lit from the front, and framed by its own outline (see DroneItemRenderer#fitToSlot).",
+  "display": {
+    "gui": { "rotation": [ 30, 315, 0 ], "translation": [ 0, 0, 0 ], "scale": [ 0.625, 0.625, 0.625 ] },
+    "ground": { "rotation": [ 0, 0, 0 ], "translation": [ 0, 3, 0 ], "scale": [ 0.25, 0.25, 0.25 ] },
+    "fixed": { "rotation": [ 0, 0, 0 ], "translation": [ 0, 0, 0 ], "scale": [ 0.5, 0.5, 0.5 ] },
+    "head": { "rotation": [ 0, 180, 0 ], "translation": [ 0, 13, 7 ], "scale": [ 1, 1, 1 ] },
+    "thirdperson_righthand": { "rotation": [ 75, 45, 0 ], "translation": [ 0, 2.5, 0 ], "scale": [ 0.375, 0.375, 0.375 ] },
+    "thirdperson_lefthand": { "rotation": [ 75, 315, 0 ], "translation": [ 0, 2.5, 0 ], "scale": [ 0.375, 0.375, 0.375 ] },
+    "firstperson_righthand": { "rotation": [ 0, 45, 0 ], "translation": [ 0, 0, 0 ], "scale": [ 0.4, 0.4, 0.4 ] },
+    "firstperson_lefthand": { "rotation": [ 0, 225, 0 ], "translation": [ 0, 0, 0 ], "scale": [ 0.4, 0.4, 0.4 ] }
+  }
+}

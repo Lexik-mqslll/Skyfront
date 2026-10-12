@@ -1,0 +1,36 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "superbwarfare"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "PNP",
+    "RBR",
+    "SSS"
+  ],
+  "key": {
+    "P": {
+      "item": "superbwarfare:copper_plate"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "superbwarfare:battery"
+    },
+    "S": {
+      "item": "superbwarfare:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "sfw:siren",
+    "count": 1
+  }
+}

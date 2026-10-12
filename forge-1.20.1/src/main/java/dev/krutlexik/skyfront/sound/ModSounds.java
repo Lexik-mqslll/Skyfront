@@ -1,0 +1,29 @@
+package dev.krutlexik.skyfront.sound;
+
+import dev.krutlexik.skyfront.SkyfrontMod;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
+
+public class ModSounds {
+    public static final DeferredRegister<SoundEvent> SOUND_EVENTS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, SkyfrontMod.MOD_ID);
+    public static final RegistryObject<SoundEvent> SHAHED_ENGINE = registerSoundEvent("shahed_engine");
+    public static final RegistryObject<SoundEvent> EXPLOSION_1 = registerSoundEvent("explosion_1");
+    public static final RegistryObject<SoundEvent> EXPLOSION_2 = registerSoundEvent("explosion_2");
+    public static final RegistryObject<SoundEvent> EXPLOSION_3 = registerSoundEvent("explosion_3");
+    public static final RegistryObject<SoundEvent> EXPLOSION_4 = registerSoundEvent("explosion_4");
+    public static final RegistryObject<SoundEvent> EXPLOSION_5 = registerSoundEvent("explosion_5");
+    public static final RegistryObject<SoundEvent> SIREN = registerSoundEvent("siren");
+
+    private static RegistryObject<SoundEvent> registerSoundEvent(String name) {
+        ResourceLocation id = new ResourceLocation(SkyfrontMod.MOD_ID, name);
+        return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(id));
+    }
+
+    public static void register(IEventBus eventBus) {
+        SOUND_EVENTS.register(eventBus);
+    }
+}
